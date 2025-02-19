@@ -1,9 +1,3 @@
-@supports (animation-timeline: scroll()) {
-  .animation-timeline {
-    animation-timeline: scroll();
-  }
-}
-
 .App {
   text-align: center;
 }
