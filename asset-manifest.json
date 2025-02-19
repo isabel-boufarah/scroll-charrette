@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/scroll-charrette/static/css/main.481f5f2f.css",
-    "main.js": "/scroll-charrette/static/js/main.9c4b2a7e.js",
+    "main.css": "/scroll-charrette/static/css/main.c42a7247.css",
+    "main.js": "/scroll-charrette/static/js/main.4c49fddc.js",
     "static/js/206.0716b816.chunk.js": "/scroll-charrette/static/js/206.0716b816.chunk.js",
     "static/media/flower-1.webp": "/scroll-charrette/static/media/flower-1.6c4a79b44ed37838b38b.webp",
     "static/media/flower-3.jpg": "/scroll-charrette/static/media/flower-3.e41b2dc157af708f1c89.jpg",
@@ -11,7 +11,7 @@
     "index.html": "/scroll-charrette/index.html"
   },
   "entrypoints": [
-    "static/css/main.481f5f2f.css",
-    "static/js/main.9c4b2a7e.js"
+    "static/css/main.c42a7247.css",
+    "static/js/main.4c49fddc.js"
   ]
 }
