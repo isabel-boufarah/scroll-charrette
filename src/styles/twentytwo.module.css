@@ -15,6 +15,7 @@
     width: 100px;
     height: 100px;
     background-color:fuchsia;
+    border-radius: 50%;
     position: fixed;
     top: 300px;
     left: calc(50% - 50px);
@@ -35,13 +36,22 @@
 }
 
 @keyframes roll {
-    to {transform: translate(300px) rotate(360deg);}
+    25% {transform: translateY(-300px);}
+    50% {transform: translateY(-200px);}
+    75% {transform: translateY(-300px);}
+    100% {transform: translateY(0px);}
 }
 
 @keyframes up {
-    to {transform: scale(3) translateY(-300px);}
+    20% {transform: translateY(-200px);}
+    55% {transform: translateY(-100px);}
+    80% {transform: translateY(-175px);}
+    100% {transform: translateY(0px);}
 }
 
 @keyframes left {
-    to {transform: scale(0.5) translateX(-300px);}
+    30% {transform: translateY(-250px);}
+    50% {transform: translateY(-150px);}
+    85% {transform: translateY(-200px);}
+    100% {transform: translateY(0px);}
 }

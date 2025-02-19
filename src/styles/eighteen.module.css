@@ -1,0 +1,18 @@
+.parallax {
+    /* The image used */
+    background: url('../images/flower-1.webp');
+  
+    /* Full height */
+    height: 100vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.type {
+    height: 1000px;
+    background-color: antiquewhite;
+}

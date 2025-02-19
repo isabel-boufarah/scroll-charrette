@@ -18,6 +18,16 @@ import Twelve from './components/Twelve';
 import Thirteen from './components/Thirteen';
 import Fourteen from './components/Fourteen';
 import Fifteen from './components/Fifteen';
+import Sixteen from './components/Sixteen';
+import Seventeen from './components/Seventeen';
+import Eighteen from './components/Eighteen';
+import Nineteen from './components/Nineteen';
+import Twenty from './components/Twenty';
+import TwentyOne from './components/TwentyOne';
+import TwentyTwo from './components/TwentyTwo';
+import TwentyThree from './components/TwentyThree';
+import TwentyFour from './components/TwentyFour';
+import TwentyFive from './components/TwentyFive';
 
 function App() {
   return (<>
@@ -40,6 +50,16 @@ function App() {
         <Route path="/thirteen" element={<Thirteen />} />
         <Route path="/fourteen" element={<Fourteen />} />
         <Route path="/fifteen" element={<Fifteen />} />
+        <Route path="/sixteen" element={<Sixteen />} />
+        <Route path="/seventeen" element={<Seventeen />} />
+        <Route path="/eighteen" element={<Eighteen />} />
+        <Route path="/nineteen" element={<Nineteen />} />
+        <Route path="/twenty" element={<Twenty />} />
+        <Route path="/twentyone" element={<TwentyOne />} />
+        <Route path="/twentytwo" element={<TwentyTwo />} />
+        <Route path="/twentythree" element={<TwentyThree />} />
+        <Route path="/twentyfour" element={<TwentyFour />} />
+        <Route path="/twentyfive" element={<TwentyFive />} />
 
       </Routes>
     </BrowserRouter>
