@@ -1,8 +1,8 @@
 {
+  "homepage": "https://isabel-boufarah.github.io/scroll-charrette",
   "name": "scroll-charrette",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://isabel-boufarah.github.io/adv-interaction-design/scroll-charrette",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build" 
   },
   "eslintConfig": {
     "extends": [
